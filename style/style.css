@@ -98,7 +98,7 @@ a:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 85%;
+    width: 96%;
     max-width: 1050px;;
     margin: 5em auto;
     padding: 5em 3em 1em 3em;
@@ -142,7 +142,7 @@ a:hover{
 
     .side-menu {
         margin: auto;
-        gap: 5em;
+        gap: 3em;
     }
     .personal,
     .option,
@@ -175,10 +175,10 @@ a:hover{
     .checkbox-list {
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: flex-start;
+        flex: auto;
         flex-wrap: wrap;
-        min-width: 100%;
+        min-width: 100%;        
     }
 }
 
