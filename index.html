@@ -1,63 +1,69 @@
 <DOCTYPE! html>
   <html lang="en">
-    <head>
-      <meta charset="UTF-8" viewport="width-device" initial-scale="1.0">
-      <link rel="stylesheet" href="style/style.css">
-      <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap">
-      <title>Survey form</title>
-      </head>
 
-    <body>
-      <div class="header">
-        <a href="index.html" title="Logo"><h1 class="logo">Logo</h1></a>
-        <div class="side-menu">
-          <a href="">Help</a>
-          <a href="">Login</a>
-          <a href="">Sign Up</a>
-        </div>
+  <head>
+    <meta charset="UTF-8" viewport="width-device" initial-scale="1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap">
+    <title>Survey form</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <a href="index.html" title="Logo">
+        <h1 class="logo">Logo</h1>
+      </a>
+      <div class="side-menu">
+        <a href="">Help</a>
+        <a href="">Login</a>
+        <a href="">Sign Up</a>
       </div>
-      
-      <div class="container">
-        <div class="head">
-      <h1 id="title">Survey</h1>
-      <p id="description">Please, take your time to help us improve our services.</p>
-        </div>
+    </div>
+
+    <div class="container">
+      <div class="head">
+        <h1 id="title">Survey</h1>
+        <p id="description">Please, take your time to help us improve our services.</p>
+      </div>
 
       <form class="survey-form" method="post" action='https://register-demo.freecodecamp.org'>
         <fieldset class="personal">
           <div class="text">
-          <h2>About you</h2>
-          <p>Personal details</p>
+            <h2>About you</h2>
+            <p>Personal details</p>
           </div>
           <div class="personal-input">
-        <label class="name label" for="name">Name <input type="text" id="name" placeholder="Enter full name" required></label>
-        <label class="email label" for="email">Email <input type="email" id="email" placeholder="Example@provider.com" required></label>
-        <label class="number label" for="age">Age <input type="number" id="number" min="18" max="120" placeholder="Enter your age" required></label>
-        <label class="gender label" for="select">Gender <select type="select" id="dropdown" required>
-            <option>Male</option>
-            <option>Female</option>
-            <option>Other</option>
-      </select></label> 
-    </div>
+            <label class="name label" for="name">Name <input type="text" id="name" placeholder="Enter full name"
+                required></label>
+            <label class="email label" for="email">Email <input type="email" id="email"
+                placeholder="Example@provider.com" required></label>
+            <label class="number label" for="age">Age <input type="number" id="number" min="18" max="120"
+                placeholder="Enter your age" required></label>
+            <label class="gender label" for="select">Gender <select type="select" id="dropdown" required>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+              </select></label>
+          </div>
         </fieldset>
 
-        <fieldset class="option">  
+        <fieldset class="option">
           <div class="text">
             <h2>Choose an option</h2>
             <p>You must choose only one</p>
-          </div>       
-          <div class="radio"> 
-        <label class=""><input type="radio" name="option" value="1" checked>Random option 1</label>
-        <label><input type="radio" name="option" value="2"> Random option 2</label>
+          </div>
+          <div class="radio">
+            <label class=""><input type="radio" name="option" value="1" checked> Random option 1</label>
+            <label><input type="radio" name="option" value="2"> Random option 2</label>
           </div>
         </fieldset>
 
-          <fieldset class="option2">
-            <div class="text">
-              <h2>Check all the options you want</h2>
-              <p>You can select one or more options</p>
-            </div>
-            <div class="checkbox-list">    
+        <fieldset class="option2">
+          <div class="text">
+            <h2>Check all the options you want</h2>
+            <p>You can select one or more options</p>
+          </div>
+          <div class="checkbox-list">
             <label><input type="checkbox" value="1"> Option 1</label>
             <label><input type="checkbox" value="2"> Option 2</label>
             <label><input type="checkbox" value="3"> Option 3</label>
@@ -66,23 +72,26 @@
             <label><input type="checkbox" value="2"> Option 6</label>
             <label><input type="checkbox" value="3"> Option 7</label>
             <label><input type="checkbox" value="4"> Option 8</label>
-
-            </div>
-            </fieldset>
-            <div class="textarea">
-            <label><textarea placeholder="Enter your comment here"></textarea></label>
-            </div>
-            <div class="terms">
-        <input type="checkbox" required><span> I agree to the <a href="">terms and conditions</a> and the <a href="">privacy policy.</a></span>
-            </div>
-          
-        <div class="submit-area"> 
-        <input class="submit" type="submit" value="Submit" title="Submit">
+          </div>
+        </fieldset>
+        
+        <div class="textarea">
+          <label><textarea placeholder="Enter your comment here"></textarea></label>
         </div>
-        </form>
-      </div>
-      <div class="footer">
-        <p>@ 2024 Survey form | <a href="https://github.com/EduardErich?tab=repositories" target="_blank">Erich Eduardo</a></p>
-      </div>
-    </body>
-    </html>
+        <div class="terms">
+          <input type="checkbox" required><span> I agree to the <a href="">terms and conditions</a> and the <a
+              href="">privacy policy.</a></span>
+        </div>
+
+        <div class="submit-area">
+          <input class="submit" type="submit" value="Submit" title="Submit">
+        </div>
+      </form>
+    </div>
+    <div class="footer">
+      <p>@ 2024 Survey form | <a href="https://github.com/EduardErich?tab=repositories" target="_blank">Erich
+          Eduardo</a></p>
+    </div>
+  </body>
+
+  </html>
